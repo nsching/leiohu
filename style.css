@@ -1,0 +1,108 @@
+body {
+  font-family: "Times New Roman", sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  color: rosybrown;
+}
+header {
+  background-color: white;
+  color: rosybrown;
+  text-align: center;
+  padding: 1rem;
+  font-family: Poppins, sans-serif;
+}
+nav {
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  padding: 0.5rem;
+}
+nav a {
+  color: rosybrown;
+  text-decoration: none;
+  font-family: "Times New Roman", sans-serif;
+  padding: 0.5rem 1rem;
+}
+.services {
+  background-color: #f4f4f4;
+  padding: 2rem;
+  text-align: center;
+}
+.services h2 {
+  margin-bottom: 1rem;
+}
+.services p {
+  margin-bottom: 2rem;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+footer {
+  background-color: #C29D82;
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+  font-family: "Times New Roman", sans-serif;
+}
+.container p {
+  line-height: 2; /* Adjust the value as needed */
+}
+
+h2 {
+  text-align: center;
+  font-family: "Times New Roman", sans-serif;
+  color: rosybrown;
+  padding-top: 20px;
+}
+h3 {
+  text-align: center;
+  font-family: "Times New Roman", sans-serif;
+  color: rosybrown;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+button {
+  color: white;
+  background-color: white;
+}
+
+.dropdown-menu {
+  background-color: transparent;
+  border: none;
+  box-shadow: none;
+  padding: 0;
+  font-family: "Times New Roman", sans-serif;
+  color: rosybrown;
+}
+
+.dropdown-item {
+  color: rosybrown; /* Text color */
+  background-color: transparent;
+  padding: 10px;
+  font-family: "Times New Roman", sans-serif;
+}
+
+.dropdown-item:hover {
+  background-color: rgba(0, 0, 0, 0.1); /* Hover color */
+}
+
+.dropdown-toggle {
+  font-family: "Times New Roman", sans-serif; /* Change font */
+  color: rosybrown; /* Text color */
+  background-color: transparent; /* Background color */
+  border: none; /* Remove border */
+}
+
+/* Remove button styles */
+.dropdown-toggle::after {
+  display: none;
+}
+
+.dropdown-toggle:focus {
+  box-shadow: none;
+  outline: none;
+}
+
